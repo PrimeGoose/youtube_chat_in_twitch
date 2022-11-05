@@ -16,7 +16,7 @@
 
       6. Enter the youtube channel ID and click "Enter"
       7. The chat should now be replaced with the youtube chat
-      8. you can toggle the chat back to the twitch chat by clicking the "show" and "hide" button
+      8. you can toggle the chat back to the twitch chat by clicking the "show" and "hide" button or use left alt key
 
 ![yt chat in twitch](./yt_chat_in_twitch.png)
 
