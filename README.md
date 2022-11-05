@@ -49,13 +49,13 @@ git clone git@github.com:ElForastero/react-browser-extension-boilerplate.git <YO
 ## 🚀 Usage
 
 ```sh
-yarn watch
+pnpm watch
 ```
 
 Runs webpack in watch mode. Automatically reloads the page after changes in files. Thanks to [webpack-extension-reloader](https://github.com/rubenspgcavalcante/webpack-extension-reloader).
 
 ```sh
-yarn build
+pnpm build
 ```
 
 Builds the extension in production mode. This version can be shipped to the store.
