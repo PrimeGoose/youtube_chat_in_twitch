@@ -1,24 +1,32 @@
 {
   "manifest_version": 2,
   "version": "1.0.0",
-  "name": "__MSG_appName__",
-  "short_name": "__MSG_appShortName__",
-  "description": "__MSG_appDesc__",
-  "default_locale": "en",
+  "name": "Youtube Chat for Twitch",
+  "short_name": "YT for TTV",
+  "description": "Toggle between Twitch Live Chat and Youtube Live Chat",
+
   "options_ui": {
     "page": "options.html"
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    
+    ]
   },
   "browser_action": {
     "default_popup": "popup.html"
   },
   "content_scripts": [
     {
-      "all_frames": false,
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["content.js"]
+      "all_frames": true,
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ]
     }
   ],
   "icons": {
@@ -26,7 +34,11 @@
     "48": "assets/img/icon-48x48.png",
     "128": "assets/img/icon-128x128.png"
   },
-  "permissions": ["storage"],
+  "permissions": [
+    "storage"
+  ],
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'; connect-src ws://localhost:*/",
-  "web_accessible_resources": ["assets/img/*"]
+  "web_accessible_resources": [
+    "assets/img/*"
+  ]
 }
