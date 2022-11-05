@@ -5,9 +5,12 @@
 
     This is a chrome extension that allows you to use the youtube chat on twitch streams.
 
+  ## Download
+  [Download extension from here](https://github.com/PrimeGoose/youtube_chat_in_twitch/releases)
+
   ## How to install
   
-      1. Download the zip file from the [releases](   
+      1. Download the zip file from the release page
       2. Unzip the file
       3. Go to chrome://extensions/ and enable developer mode (top right)
       4. Click "Load unpacked" and select the folder you unzipped
