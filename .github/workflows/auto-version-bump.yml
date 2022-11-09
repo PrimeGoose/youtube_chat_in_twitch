@@ -2,7 +2,7 @@ name: CI / Bump version
 on:
     push:
         branches:
-            - dev
+            - master
 jobs:
     bump:
         name: "Bump Version"
